@@ -1,0 +1,11 @@
+{
+  "name": "creative-stylus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Valera Palianov <valera.palianov@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "stylus": "^0.54.7"
+  }
+}
