@@ -2,7 +2,7 @@
 
 ____
 
-##Для запуска проекта:
+## Для запуска проекта:
 
 ### Шаг первый
 ```
@@ -27,7 +27,7 @@ yarn stylus ./src/general.styl --out dist/assets/styles/light.css
 ```
 
 
-##Смена темы со светлой на темную:
+## Смена темы со светлой на темную:
 
 - В файле src/variables.styl поменять значение переменной '$isDarkTheme' с 'true' на 'false'
 - Выполнить команду:
@@ -36,7 +36,7 @@ yarn stylus ./src/general.styl --out dist/assets/styles/light.css
 - В файле dist/index.html закомментировать строчку <link rel="stylesheet" type="text/css" href="./assets/styles/light.css"> и убрать комментарий со строки следующей за ней.
 
 
-##Ход выполнения работы:
+## Ход выполнения работы:
 
 - Инициализировал git
 - Инициализировал Yarn
