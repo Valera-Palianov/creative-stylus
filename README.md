@@ -29,7 +29,7 @@ yarn stylus ./src/general.styl --out dist/assets/styles/light.css
 
 ## Смена темы со светлой на темную:
 
-- В файле src/variables.styl поменять значение переменной '$isDarkTheme' с 'true' на 'false'
+- В файле src/variables.styl поменять значение переменной '$isDarkTheme' с 'false' на 'true'
 - Выполнить команду:
 	- Для пользователей npm: npx stylus ./src/general.styl --out dist/assets/styles/dark.css
 	- Для пользователей yarn: yarn stylus ./src/general.styl --out dist/assets/styles/dark.css
