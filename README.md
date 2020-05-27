@@ -33,7 +33,7 @@ yarn stylus ./src/general.styl --out dist/assets/styles/light.css
 - Выполнить команду:
 	- Для пользователей npm: npx stylus ./src/general.styl --out dist/assets/styles/dark.css
 	- Для пользователей yarn: yarn stylus ./src/general.styl --out dist/assets/styles/dark.css
-- В файле dist/index.html закомментировать строчку <link rel="stylesheet" type="text/css" href="./assets/styles/light.css"> и убрать комментарий со строки следующей за ней.
+- В файле dist/index.html убрать комментарий со строкой подключения стиля.
 
 
 ## Ход выполнения работы:
