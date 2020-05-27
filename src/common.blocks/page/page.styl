@@ -1,2 +1,23 @@
 .page
-	background-color: $bgColor
+	background-color: $pageBg
+	height: 100vh
+	padding: 15px
+	box-sizing: border-box
+	display: grid
+	grid-template-columns: 15% 1fr 15%
+	grid-template-rows: auto 1fr
+	grid-gap: 15px
+	grid-template-areas: 	"header header header"\
+							"right-sidebar main left-sidebar"
+	
+	&__main
+		grid-area: main							
+	&__header
+		grid-area: header
+		background-color: $headerBg
+	&__sidebar
+		background-color: $sidebarBg
+		&_right
+			grid-area: right-sidebar
+		&_left
+			grid-area: left-sidebar
